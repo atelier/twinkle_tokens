@@ -60,7 +60,7 @@ var jsonLyrics = {
 }
 
 var newSong, time, phrase, lrcArr, lrcStr;
-newSong = jsonLyrics.variations[0];
+newSong = jsonLyrics.variations[1];
 time = 0;
 phrase = "";
 lrcArr = [];
