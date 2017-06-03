@@ -1,0 +1,32 @@
+#lyricer {
+	font-size: 3.2rem;
+	line-height: 1.4;
+	font-family: Helvetica, sans-serif;
+  	/*text-shadow: 0 0 1px #EEEEEE;*/
+  	color: rgba(0,0,0,0.4);
+  	overflow: hidden;
+  	background: #80f1c7;
+  	border: 3px solid #000;
+  	padding: 1em .5em 1.6em;
+  	text-align: center;
+}
+
+#lyricer ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#lyricer ul li {
+	overflow: visible;
+}
+
+/*
+#lyricer ul li:hover {
+	color: #428bca;
+}
+*/
+
+#lyricer .lyricer-current-line {
+	color: #fff;
+	text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #ff2d95, 0 0 6px #ff2d95, 0 0 8px #ff2d95, 0 0 10px #ff2d95, 0 0 12px #ff2d95;
+}
